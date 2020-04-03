@@ -9,14 +9,31 @@
    h1 {
   text-align: center;
 }
+
   .header {
   background-color: #FFE0D9;
+  height: 40px
+}
+.header2 {
+   background-color: #a8d6d6;
   height: 40px
 }
 .image {
   height: 300px;
   width: 500px;
   text-align: center
+}
+.image2 {
+  height: 300px;
+  width: 450px;
+  text-align: center
+}
+/* edit sticky on the navigation bar was also added. Navigation Bar is added in the style.css */ 
+.sticky{
+  position: sticky; 
+  padding:0; 
+  top: 0; 
+
 }
 body, html {
   background: linear-gradient(to top, #ffffff 0%, #ccffff 100%);
@@ -26,20 +43,37 @@ div {
 }
 
 .audit{ 
+  text-align: left
+}
+.about {
+  text-align: left
+
+}
+.cpa {
+  text-align: left
+
+}
+.taxaccounting {
+  text-align: left
+
+}
+/* added columns today */
+.column{
+  column-rule: 3px solid  black;
+  column-count: 2;
+  column-gap: 10px;
 }
 
 </style> 
   </head>
   <body>
-  
-<ul> 
+<ul class="sticky"> 
   <li><a href="#image">Home</a></li>
-  <li><a href="news.asp">Audit </a></li>
-  <li><a href="#audit">Accounting</a></li>
-  <li><a href="news.asp">CPA</a></li>
-  <li><a href="news.asp">Tax Accountant</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
+  <li><a href="#audit">Audit </a></li>
+  <li><a href="#cpa">CPA</a></li>
+  <li><a href="#taxaccounting">Tax Accountant</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
  <h1 class="header">ACCOUNTING</h1>
 
@@ -51,37 +85,102 @@ div {
 <br>
 <br>
 <br> 
+<h2 id="about"> 
+  <h1> <div class="header1"> ABOUT </Center> </h1>
+   <h2> <div class="header2"><center>What Is Accounting? </center> </h2>
+   <center> <div> <img class="image" src="https://www.mtsac.edu/ce/images/photo_header/accounting_bookkeeping.jpg" alt="audit"> <a href="https://www.mtsac.edu/ce/images/photo_header/accounting_bookkeeping.jpg"> Image from here </a></center> 
+
+   <p> <b>Accounting</b> is a communication of finance and non-finance information based on business and cooperation. It’s a part of a business major to anyone who is interested in business.
 <br>
+<br> 
+  <p> If you are interested in going to business field and wanting to be an accountant. But don't know which accounting field you want to do. I think this page will help you decided what you want to be. </p> 
+  <br> 
 
-  <h2 id"audit"> 
-   <center>What Is An Audit? </center> </h2>
-   <center> <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAlW-NesA6duwOtAL1Mj6T-a6LTaMKk77R9TswBc9q6g3yDA7&s" alt="audit"></center> 
-
+  <p> If you want to be: </p> 
+  <ol> 
+    <li> An CPA- or known as Certified Public Accountant</li> 
+    <br> 
+    <li> An Auditor - A person who do audit or interested in audit </li> 
+    <br> 
+    <li> A Tax Accountant- A person who do tax returns </li>
+</div>
+<br> 
+<br>
+<br>
+<br>
+<div>
+  <h2 id="audit"> 
+   <div class="header2"><center>What Is An Audit? </center> </h2>
+   <center> <div> <img class="image2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAlW-NesA6duwOtAL1Mj6T-a6LTaMKk77R9TswBc9q6g3yDA7&s" alt="audit"> <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAlW-NesA6duwOtAL1Mj6T-a6LTaMKk77R9TswBc9q6g3yDA7&s"> Image from here </a></center> 
+</div> 
    <p> Audit is an independent examination of an financial statement or account by an auditor make sure that all departments are following documented system of recording transactions(make sure the information are in place.)
 <br>
 <br>
+<div class="column">
 There are many different kind types of Audit, some are:
+<br> 
+<br>
 <ol>
-  <li>Financial data: Auditor(s) who do Financial data is the common type of audit. It check the fairness and accuracy of the business’s financial in order to review balance or any data</li>
+  <li><b>Financial Data</b>: Auditor(s) who do Financial data is the common type of audit. It check the fairness and accuracy of the business’s financial in order to review balance or any data 
+<br>
+<br>
 
- <li>Audit reports: Auditor(s) who do Audit reports is to gives reports of the audit process which the auditor find any accurate, missing or mistaken information or data.
-
- <li>External audit: Auditor(s) who do External audit determine the accuracy of the accounting records. They also ensure the company’s information and data to make sure it's accurate and fair The auditor(s) have no connection to the company which means you're not an employee of the companies that you are auditing
-
- <li>Internal audit: *Auditor who do Internal audit is an employee of the company. They update the company's finance and purpose improvements. It's a good way to check the company's financial goals
+ <li><b>Audit Reports</b>: Auditor(s) who do Audit reports is to gives reports of the audit process which the auditor find any accurate, missing or mistaken information or data.
+<br>
+<br>
+ <li><b>External Audit</b>: Auditor(s) who do External audit determine the accuracy of the accounting records. They also ensure the company’s information and data to make sure it's accurate and fair The auditor(s) have no connection to the company which means you're not an employee of the companies that you are auditing
+<br>
+<br> 
+ <li><b>Internal Audit</b>: Auditor who do Internal audit is an employee of the company. They update the company's finance and purpose improvements. It's a good way to check the company's financial goals
 </ol> 
-</h3>
+</div>
 <br> 
 Please check the sources below for more informations: 
-<ol>
- <a href="https://www.patriotsoftware.com/accounting/training/blog/different-types-of-audit/"> https://www.patriotsoftware.com/accounting/training/blog/different-types-of-audit/ </a>
-  <a href="https://www.investopedia.com/terms/a/audit.asp"> https://www.investopedia.com/terms/a/audit.asp </a>
+ <br>
+ <a href="https://www.patriotsoftware.com/accounting/training/blog/different-types-of-audit/">https://www.patriotsoftware.com/accounting/training/blog/different-types-of-audit/ </a> 
+  <br>
+ <a href "https://www.patriotsoftware.com/accounting/training/blog/different-types-of-audit/">https://www.patriotsoftware.com/accounting/training/blog/different-types-of-audit/ </a>
+  <br>
+  <a href="https://www.investopedia.com/terms/a/audit.asp">https://www.investopedia.com/terms/a/audit.asp </a> 
+  <br> 
+  <a href=" https://www.investopedia.com/terms/a/audit.asp">https://www.investopedia.com/terms/a/audit.asp </a>
+</a>
+<br> 
+</div>
+<br> 
+<br> 
+<br> 
+<h2 id="cpa"> 
+  <div class="header2"> <center>What Is A CPA/ Public Accountant? </center> </h2>
+   <center> <div> <img class="image2" src="https://davisnagycpa.com/wp-content/uploads/2018/10/57814da1c28c9297879275e98d09e746-8.jpg" alt="cpa"> <a href="https://davisnagycpa.com/wp-content/uploads/2018/10/57814da1c28c9297879275e98d09e746-8.jpg"> Image from here </a></center> 
 
-<br> 
-<br> 
-<br> 
-<br> 
+   <p> <b>CPA</b> stands for Certified Public Accountant. 
+   <br>
+   CPA is a license that provide accounting services to the people. Public Accountant is another Job offers in the Accounting field.
+<br>
 
+<p>Public Accounting is a business that provide accounting services to other firm or client. Public accountant or CPA can work as auditing the finance state for another company. They prepare tax returns for clients as well as recognized as an expert in accounting records,tax and financial standing. They also help their client to reach their financial goals and plans. For Public Accounting, accountant(s) do tax for different state or all the states worldwide.</p>
+<br> 
+Please check the sources below for more informations: 
+ <a href="accountingtools.com/articles/what-is-public-accounting.html">accountingtools.com/articles/what-is-public-accounting.html </a> 
+  <br>
+ <a href "accounting.com/careers/public-accounting/">accounting.com/careers/public-accounting/ </a>
+  <br> 
+  <br> 
+  <br> 
+  <h2 id="taxaccounting"> </h2>
+   <h2><div class="header2"><center>What is Tax Accounting?</h2>
+   <center> <div> <img class="image2" src="http://lfsri.com/wp-content/uploads/2017/05/Wrobel-accounting-taxes-florida-home.jpg" alt="cpa"> <a href="http://lfsri.com/wp-content/uploads/2017/05/Wrobel-accounting-taxes-florida-home.jpg"> Image from here </a></center> 
+
+  <p> Tax accountants ensure companies' and individuals' tax by filing their federal and state income tax returns. </p>
+<br>
+<p>Tax accountants focus on tax purposes and prepare tax returns. They do tax filling, tax planning, and anything related to tax. Tax accountants help the company to reduce tax burden as well as helping you not to pay more tax. Accountant give recommendations on how to get the most of your tax return.</p>
+<br> 
+To learn more:
+<br>
+ <a href="bench.co/blog/accounting/what-is-accounting/">bench.co/blog/accounting/what-is-accounting/ </a> 
+ <br>
+ <a href "investopedia.com/terms/t/tax-accounting.asp">investopedia.com/terms/t/tax-accounting.asp </a>
 
 
 
