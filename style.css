@@ -25,3 +25,8 @@ li a:hover {
 .active {
   background-color: rgb(100, 104, 100);
 }
+
+tml { background: red; }
+
+@media (max-width: 600px) {
+  html { background: green; }
