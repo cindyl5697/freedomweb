@@ -13,12 +13,12 @@
   background: #f0e8eb;
 }
 
-  .header {
+.header {
   background-color: #FFE0D9;
   height: 40px
 }
 .header2 {
-   background-color: #a8d6d6;
+  background-color: #a3dfc8;
   height: 40px
 }
 .image {
@@ -61,6 +61,9 @@ div {
   text-align: left
 
 }
+.form{
+
+}
 /* added columns today */
 .column{
   column-rule: 3px solid  black;
@@ -100,7 +103,54 @@ input[type=submit]:hover {
   background-color: #f4f6fa;
   padding: 20px;
 }
-
+/* accordion */
+.accordion {
+ background-color: inherit; 
+  color: black; 
+  cursor: pointer; 
+  paddding: 40px; 
+  width: 100%; 
+  text-align: center; 
+  border: none;
+  border: 5px solid black;
+  transition: .4s;
+ /* self added */
+  font-size: 25px; 
+  height: 40px;
+}
+.accordion:hover{
+  background-color: #A4D3EE
+}
+.panel {
+  padding: 0 18px;
+  background-color: #fffaee; 
+  display: none;
+  overflow: hidden;
+}
+/* accordion2 */
+.accordion2 {
+ background-color: #f2c5c3; 
+  color: black; 
+  cursor: pointer; 
+  paddding: 40px; 
+  width: 100%; 
+  text-align: center; 
+  border: none;
+  border: 5px solid black;
+  transition: .4s;
+ /* self added */
+  font-size: 25px; 
+  height: 40px;
+}
+.accordion2:hover{
+  background-color: #f7d9e5
+}
+.panel2 {
+  padding: 0 18px;
+  background-color: inherit; 
+  display: none;
+  overflow: hidden;
+}
 </style> 
   </head>
   <body>
@@ -136,7 +186,7 @@ input[type=submit]:hover {
 
   <p> If you want to be: </p> 
   <ol> 
-    <li> An CPA- or known as Certified Public Accountant</li> 
+    <li> A CPA- or known as Certified Public Accountant</li> 
     <br> 
     <li> An Auditor - A person who do audit or interested in audit </li> 
     <br> 
@@ -148,8 +198,9 @@ input[type=submit]:hover {
 <br>
 <div>
   <h2 id="audit"> 
-   <div class="header2"><center>What Is An Audit? </center> </h2>
-   <center> <div> <img class="image2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAlW-NesA6duwOtAL1Mj6T-a6LTaMKk77R9TswBc9q6g3yDA7&s" alt="audit"> <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAlW-NesA6duwOtAL1Mj6T-a6LTaMKk77R9TswBc9q6g3yDA7&s"> Image from here </a></center> 
+  <div class="header2"> <center>What Is An Audit? </center> </h2>
+   <center> <div> <img class="image2" 
+   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAlW-NesA6duwOtAL1Mj6T-a6LTaMKk77R9TswBc9q6g3yDA7&s" alt="audit"> <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAlW-NesA6duwOtAL1Mj6T-a6LTaMKk77R9TswBc9q6g3yDA7&s"> Image from here </a></center> 
 </div> 
  <p> Audit is an independent examination of a financial statement or account by an auditor to make sure that all departments are following a documented system of recording transactions(make sure the information is in place.)
 <br>
@@ -173,7 +224,8 @@ There are many different kind types of Audit, some are:
 </ol> 
 </div>
 <br> 
-Please check the sources below for more informations: 
+<button class="accordion2"> Please click here to check out the sources below for more informations:  </button> 
+<div class="panel2"> 
  <br>
  <a href="https://www.patriotsoftware.com/accounting/training/blog/different-types-of-audit/">https://www.patriotsoftware.com/accounting/training/blog/different-types-of-audit/ </a> 
   <br>
@@ -214,31 +266,51 @@ Please check the sources below for more informations:
 <br> 
 
 <br>
-Please check the sources below for more informations: 
+<button class="accordion2"> Please click here to check out the sources below for more informations:  </button> 
+<div class="panel2"> 
+  <br> 
  <a href="accountingtools.com/articles/what-is-public-accounting.html">accountingtools.com/articles/what-is-public-accounting.html </a> 
   <br>
- <a href "accounting.com/careers/public-accounting/">accounting.com/careers/public-accounting/ </a>
-  <br> 
-  <br> 
-  <br> 
+ <a href "accounting.com/careers/public-accounting/">accounting.com/careers/public-accounting/ 
+  </a>
+<br> 
+</div>
+<br> 
+<br> 
+<br> 
+  
   <h2 id="taxaccounting"> </h2>
    <h2><div class="header2"><center>What is Tax Accounting?</h2>
-   <center> <div> <img class="image2" src="http://lfsri.com/wp-content/uploads/2017/05/Wrobel-accounting-taxes-florida-home.jpg" alt="cpa"> <a href="http://lfsri.com/wp-content/uploads/2017/05/Wrobel-accounting-taxes-florida-home.jpg"> Image from here </a></center> 
+   <center> <div> <img class="image2" src="http://lfsri.com/wp-content/uploads/2017/05/Wrobel-accounting-taxes-florida-home.jpg" alt="cpa"> <a href="http://lfsri.com/wp-content/uploads/2017/05/Wrobel-accounting-taxes-florida-home.jpg"> Image from here </a> </center> 
+
 
   <p> Tax accountants ensure companies' and individuals' tax by filing their federal and state income tax returns. </p>
 <br>
 <p>Tax accountants focus on tax purposes and prepare tax returns. They do tax filing, tax planning, and anything related to tax. Tax accountants help the company to reduce tax burden as well as helping you not to pay more tax. Accountant give recommendations on how to get the most of your tax return.</p>
 <br> 
-To learn more:
+<br>
+<button class="accordion2"> Please click here to check out the sources below for more informations:  </button> 
+<div class="panel2"> 
 <br>
  <a href="bench.co/blog/accounting/what-is-accounting/">bench.co/blog/accounting/what-is-accounting/ </a> 
  <br>
  <a href "investopedia.com/terms/t/tax-accounting.asp">investopedia.com/terms/t/tax-accounting.asp </a>
+</a>
+<br> 
+</div>
+<br> 
+<br> 
+<br> 
 
  <h2 id="contact"> </h2>
  <h1> <div class="header1"> Contact </Center> </h1>
-<h3>Contact Form</h3>
 
+<style>/* accordion */</style>
+ <button class="accordion"> Click For Contact Form and Scoll! </button>
+<div class="panel"> <h2 id="form">
+<style>/* Form */</style>
+
+<h3>Contact Form</h3>
 <div class="container">
   <form action="/action_page.php">
     <label for="fname">First Name</label>
@@ -251,7 +323,7 @@ To learn more:
     <select id="country" name="country">
       <option value="australia">Australia</option>
       <option value="canada">Canada</option>
-      <option value="usa">China</option>
+      <option value="china">China</option>
       <option value="usa">USA</option>
       
     </select>
@@ -262,7 +334,40 @@ To learn more:
     <input type="submit" value="Submit">
   </form>
 </div>
+   <script src="script.js"></script>
 
+
+<style>/* accordion script */</style>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+ acc[i].addEventListener("click", function() {
+   var panel = this.nextElementSibling;
+   if (panel.style.display === "block") {
+     panel.style.display = "none";
+   } else {
+     panel.style.display = "block";
+   }
+ });
+}
+
+ </script>
+ <script>
+var acc = document.getElementsByClassName("accordion2");
+var i;
+for (i = 0; i < acc.length; i++) {
+ acc[i].addEventListener("click", function() {
+   var panel = this.nextElementSibling;
+   if (panel.style.display === "block") {
+     panel.style.display = "none";
+   } else {
+     panel.style.display = "block";
+   }
+ });
+}
+
+ </script>
 </body>
 
 
