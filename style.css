@@ -33,11 +33,11 @@ h1 {
 }
 
 .header {
-  background-color: #FFE0D9;
+  background-color: #EEC9BC;
   height: 40px
 }
 .header2 {
-  background-color: #a3dfc8;
+  background-color: #8AC7DB;
   height: 40px
 }
 .image {
@@ -61,7 +61,7 @@ body, html {
   background: linear-gradient(to top, #ffffff 0%, #ccffff 100%);
 }
 div {
-  background: #ffe1d8;
+  background: #F9F1F0;
 }
 
 
@@ -107,18 +107,17 @@ input[type=submit]:hover {
  background-color: inherit; 
   color: black; 
   cursor: pointer; 
-  paddding: 40px; 
+  padding: 20px; 
   width: 100%; 
   text-align: center; 
-  border: none;
   border: 5px solid black;
   transition: .4s;
  /* self added */
   font-size: 25px; 
-  height: 40px;
+  height: 100px;
 }
 .accordion:hover{
-  background-color: #A4D3EE
+  background-color: #a4ccd0
 }
 .panel {
   padding: 0 18px;
@@ -127,32 +126,9 @@ input[type=submit]:hover {
   overflow: hidden;
 }
 
+
 /* accordion2 */
 .accordion2 {
- background-color: #ffc5b4; 
-  color: black; 
-  cursor: pointer; 
-  paddding: 40px; 
-  width: 100%; 
-  text-align: center; 
-  border: none;
-  border: 5px solid black;
-  transition: .4s;
- /* self added */
-  font-size: 25px; 
-  height: 70px;
-}
-.accordion2:hover{
-  background-color: #f7d9e5
-}
-.panel2 {
-  padding: 0 18px;
-  background-color: inherit; 
-  display: none;
-  overflow: hidden;
-}
-/* accordion3 */
-.accordion3 {
   background-color: #003366;
   color: #ffc1b2;
   cursor: pointer;
@@ -165,11 +141,11 @@ input[type=submit]:hover {
   transition: 0.4s;
 }
 
-.active, .accordion3:hover {
+.active, .accordion2:hover {
   background-color: #39a6c1; 
 }
 
-.panel3 {
+.panel2 {
   padding: 0 18px;
   display: none;
   background-color: inherit;
@@ -281,5 +257,5 @@ body, html {
   background: linear-gradient(to top, #ffffff 0%, #ccffff 100%);
 }
 body, html {
-  background: #b0e0e6
+  background: #c6e2ff
 }
