@@ -9,7 +9,7 @@
   </head>
   <body>
       <style> /* Navi bar  */</style>
-<ul class="sticky"> 
+<ul class="sticky">
   <li><a href="index.html">Home</a></li>
   <li><a href="audit.html">Audit </a></li>
   <li><a href="CPA.html">CPA/Public Accountant</a></li>
@@ -87,15 +87,18 @@
     <li> A Tax Accountant- A person who do tax returns </li>
 </div>
 <br>
+</br>
 <p><center><b>Please check out the information by clicking on the navigational bar above. </p></b> </center>
 <br> 
 <br>
+<button class="accordion"> THE PURPOSE OF THIS WEBSITE  </button> 
+<div class="panel"> 
+ <h5> Through the course of the year in SEP, students like me are asked to create our website based on topics that interested us. Of course, I'm currently interested in going on a business path. So, I thought it would be nice to create a website about basic information about a major in business for people to learn about if you are interested in the business field like me. This is a perfect time for me to research a career path that I'm interested in it and how this business major "Accounting" works, and it's a great way to find your career path once high school is over. I hope this page can be a bit helpful for both me and you. </h5>
 <br>
 <br>
 <div>
 
    <script src="script.js"></script>
-
 
 <style>/* accordion script */</style>
 <script>
@@ -114,7 +117,7 @@ for (i = 0; i < acc.length; i++) {
 
  </script>
  <script>
-var acc = document.getElementsByClassName("accordion2");
+var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {
  acc[i].addEventListener("click", function() {
@@ -152,7 +155,20 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+ acc[i].addEventListener("click", function() {
+   var panel = this.nextElementSibling;
+   if (panel.style.display === "block") {
+     panel.style.display = "none";
+   } else {
+     panel.style.display = "block";
+   }
+ });
+}
 
+    </script>
  </script>
 </body>
 
