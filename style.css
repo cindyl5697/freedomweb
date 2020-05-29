@@ -9,7 +9,7 @@ ul {
   display: flex; 
   flex-direction: row; 
   flex-wrap: wrap;
-
+z-index: 1;
 }
 li {
   float: left;
@@ -202,6 +202,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  z-index: 0
 }
 /* Next & previous buttons */
 .prev, .next {
