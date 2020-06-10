@@ -8,7 +8,7 @@ For my project, I am making a website about Accounting using Github, HTML, CSS, 
 
 ## **Implications:**
 
-My website is to give people a recommendation job in business if you are interested in business. 
+My website is to give people a recommendation job in business if you are interested in business as your future career. 
 
 *Here are some basic "ACCOUTNING" information to know:*
 
