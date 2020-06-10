@@ -8,7 +8,7 @@ For my project, I am making a website about Accounting using Github, HTML, CSS, 
 
 ## **Implications:**
 
-Give people a recommendation job in business
+My website is to give people a recommendation job in business if you are interested in business. 
 
 *Here are some basic "ACCOUTNING" information to know:*
 
@@ -25,5 +25,3 @@ Please check here:
 https://cindyl5697.github.io/freedomweb/ 
 OR HERE 
 https://repl.it/@CindyLi3/freedomweb
-
-## **Presentation: **
