@@ -21,7 +21,10 @@ My website is to give people a recommendation job in business if you are interes
 ## **Product:**
 
 This is the product of my freedom project. 
-Please check here: 
+Please check here:
+
 https://cindyl5697.github.io/freedomweb/ 
-OR HERE 
+
+OR HERE
+
 https://repl.it/@CindyLi3/freedomweb
