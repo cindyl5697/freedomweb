@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  </head>
+  <body>
+  
+      <style> /* CSS Navigation Bar from https://www.w3schools.com/css/css_navbar_horizontal.asp */</style>
+<ul class="sticky"> 
+  <li><a href="index.html">Home</a></li>
+  <li><a href="audit.html">Audit </a></li>
+  <li><a href="CPA.html">CPA/Public Accountant</a></li>
+  <li><a href="Taxaccounting.html">Tax Accounting</a></li>
+  <li><a href="Review.html">Review</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+<style> /* Review  */</style>
+ <h1> <div class="header2"> REVIEW </Center> </h1>
+   <center> <div> <img class="image5" src="https://blog.hubspot.com/hubfs/00-Blog_Thinkstock_Images/how-to-write-a-podcast-review.png" alt="cpa"><center> <a href="https://blog.hubspot.com/hubfs/00-Blog_Thinkstock_Images/how-to-write-a-podcast-review.png"> Image from here </a></center> </center> 
+
+</div> 
+  <h3 id="review"> </h4>
+  <h4> PLEASE LEAVE A REVIEW/FEEDBACK FOR US TO IMPROVE OUR WEBSITE BELOW: </h4>
+  <h4> To add an review, please press "a" on your keyboard to add your review on our page. <br></br> To delete your last review, please press "d" on your keyboard to delete the last review. </h4>
+    
+<script>
+var usersReview = ["I learn some interesting facts that I never learn in class","Excellent website for the people that never heard about accounting","A good website for students to that is planning to major in accounting!",""];
+
+
+function addingReview() { 
+  var addTheLastReview = prompt("Please write an review for us below!");
+  var addTheLastReview = usersReview.push(addTheLastReview);
+}
+
+function deletingTheLastReview() { 
+  var deleteReview = alert("Deleting the last review");
+  var deleteReview = usersReview.pop(remove);
+}
+
+
+function setup() {
+  createCanvas(900, 1000);
+}
+function draw() {
+  background(198,226,255);
+  textSize(20);
+  fill(000);
+  for(var i = 0; i < usersReview.length; i++){
+    text(i+1 + ". " + usersReview[i],20,i*20+75);
+  }
+}
+function keyPressed() {
+  if(key.toLowerCase() == 'a') {
+    addingReview();
+  } else if(key.toLowerCase() == 'd') {
+    deletingTheLastReview();
+  } 
+}
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="script.js"></script>
+  </script>
+  </body>
+</html>

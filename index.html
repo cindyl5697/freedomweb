@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<div></div><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -9,43 +9,49 @@
   
   </head>
   <body>
-      <style> /* Navi bar  */</style>
-<ul class="sticky">
+      <style> /* CSS Navigation Bar from https://www.w3schools.com/css/css_navbar_horizontal.asp */</style>
+<ul class="sticky"> 
   <li><a href="index.html">Home</a></li>
   <li><a href="audit.html">Audit </a></li>
   <li><a href="CPA.html">CPA/Public Accountant</a></li>
   <li><a href="Taxaccounting.html">Tax Accounting</a></li>
-  <li><a href="Contact.html">Contact</a></li>
+  <li><a href="Review.html">Review</a></li>
   <li><a href="about.html">About</a></li>
-
 </ul>
+
+    <h4> <div id="username"> </div> </h4>
       <style> /* Home Page */</style>
  <h1 class="header">ACCOUNTING</h1>
 
+<!--Slideshow from https://www.quanzhanketang.com/howto/howto_js_slideshow.html  -->
     <div id="image">
    <center> 
      <div class="slideshow-container">
-
+       
 <div class="mySlides fade">
   <div class="numbertext">1 / 4</div>
   <img src="image1.jpg" style="width:100%">
-  <div class="text">A place to find basic information about Accounting</div>
+<!--   PIC FROM https://images.squarespace-cdn.com/content/v1/5b7ad8532487fdc378a2ee6e/1535385543492-VOD08WI2BE1QRQ4SSSIW/Accounting+Services+NYC.jpg -->
+  <div class="text">A place to find brief summary about Accounting</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 4</div>
   <img src="image2.jpg" style="width:100%">
+<!--   PIC FROM https://www.wsav.com/wp-content/uploads/sites/75/2022/02/GettyImages-465301436.jpg?strip=1 -->
   <div class="text">Audit</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 4</div>
   <img src="image3.jpg" style="width:100%">
+<!--   PIC FROM https://www.franklin.edu/sites/default/files/styles/btcb_photo/public/fr/back%20to%20college%20blog/main%20images/iStock-983321926.jpg?itok=usJ_HhgI -->
   <div class="text">CPA</div>
 </div>
 <div class="mySlides fade">
   <div class="numbertext">4 / 4</div>
   <img src="image4.jpg" style="width:100%">
+<!--   PIC FROM https://www.merchantmaverick.com/wp-content/uploads/2017/02/bigstock-150304562.jpg -->
   <div class="text">Tax Accounting</div>
 </div>
 
@@ -66,12 +72,11 @@
    <br>
     </div> 
 <br> 
-<br>
-<br> 
+
 <style> /* About */</style>
    <h2> <div class="header2"><center>What Is Accounting? </center> </h2>
-   <center> <div> <img class="image" src="https://www.frgglobal.com/images/accounting.jpg" alt="audit"> 
-   <center> <a href="https://www.frgglobal.com/images/accounting.jpg"> Image from here </a></center> </center>
+   <center> <div> <img class="image" src="https://pas-wordpress-media.s3.amazonaws.com/content/uploads/2018/05/30165503/accounting-error.jpg" alt="audit"> 
+   <center> <a href="https://pas-wordpress-media.s3.amazonaws.com/content/uploads/2018/05/30165503/accounting-error.jpg"> Image from here </a></center> </center>
 <center>
    <p> <b>Accounting</b> is a communication of finance and non-finance information based on business and cooperation. It’s a part of a business major to anyone interested in business.
 <br>
@@ -89,19 +94,19 @@
 </div>
 <br>
 </br>
-<p><center><b>Please check out the information by clicking on the navigational bar above. </p></b> </center>
+<p><center><b>Please check out the information by clicking on the navigational bar above to learn more. </p></b> </center>
 <br> 
 <br>
 <button class="accordion"> THE PURPOSE OF THIS WEBSITE  </button> 
 <div class="panel"> 
- <h5> Through the course of the year in SEP, students like me are asked to create our website based on topics that interested us. Of course, I'm currently interested in going on a business path. So, I thought it would be nice to create a website about basic information about a major in business for people to learn about if you are interested in the business field like me. This is a perfect time for me to research a career path that I'm interested in it and how this business major "Accounting" works, and it's a great way to find your career path once high school is over. I hope this page can be a bit helpful for both me and you. </h5>
+ <h5> The purpose of the website is to create a informational website about accounting for the people that is interested and want to learn more about accounting. It's a great source for people to find their career path after high school. I hope this page can be a bit helpful for both me and you. </h5>
 <br>
 <br>
 <div>
 
-   <script src="script.js"></script>
+<script src="script.js"></script>
 
-<style>/* accordion script */</style>
+<style>/* accordion script from https://www.w3schools.com/howto/howto_js_accordion.asp */</style>
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -117,6 +122,7 @@ for (i = 0; i < acc.length; i++) {
 }
 
  </script>
+<!--  learning the slideshow from https://www.quanzhanketang.com/howto/howto_js_slideshow.html -->
  <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -168,21 +174,19 @@ for (i = 0; i < acc.length; i++) {
    }
  });
 }
-
     </script>
  </script>
-</body>
+  
 
-
-
-
-
-
-
-
-
-
-
+<script>
+   //NAME - ASK USER FOR NAME WHEN THEY CLICK RUN// 
+var yourName= prompt("Hello! What is your name?"); 
+function theName(name) {
+  name = name.toUpperCase();  
+return "  Hi, " + name + "! " + "  Welcome to CD's informational website about Accounting! Let's start viewing some basic information about Accounting below!!   ";
+} 
+document.querySelector("#username").innerHTML = (theName(yourName)); 
+</script>
 
     <script src="script.js"></script>
   </body>

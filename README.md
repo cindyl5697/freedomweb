@@ -1,6 +1,6 @@
 ## **Context**:
 
-The “Freedom Project” for SEP10 is all about the course-long projects we create based on our creativity. The purpose of this blog is to apply the content we learn everyday by doing a reflection and presentation to our creation 
+The “Freedom Project” for SEP is all about the course-long projects we create based on our creativity. The purpose of this blog is to apply the content we learn everyday by doing a reflection and presentation to our creation 
 
 ## **Content:**
 
@@ -23,8 +23,8 @@ My website is to give people a recommendation job in business if you are interes
 This is the product of my freedom project. 
 Please check here:
 
-https://cindyl5697.github.io/freedomweb/ 
+
 
 OR HERE
 
-https://repl.it/@CindyLi3/freedomweb
+

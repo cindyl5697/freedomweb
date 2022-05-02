@@ -1,11 +1,11 @@
-/* Navi*/
+/* CSS Navigation Bar from https://www.w3schools.com/css/css_navbar_horizontal.asp */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  border: 3px dashed #a39193; 
+  border: 3px solid white; 
   display: flex; 
   flex-direction: row; 
   flex-wrap: wrap;
@@ -14,7 +14,6 @@ z-index: 1;
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
@@ -42,8 +41,9 @@ h2 {
   font-size:37px
 }
  h3 {
-  background: #f0e8eb;
+  background: #f4f4f4;
 }
+/* Font theme from https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp */
 @font-face{
 font-family:Apple;
 src: url("AppleGaramond-Light.ttf")
@@ -54,7 +54,7 @@ src: url("Vogue.ttf")
 } 
 /* headers*/
 .header {
-  background-color: #EEC9BC;
+  background-color: #8AC7DB;
   height: 40px
 }
 .header2 {
@@ -83,7 +83,7 @@ body, html {
   background: linear-gradient(to top, #ffffff 0%, #ccffff 100%);
 }
 div {
-  background: #F9F1F0;
+  background: #f4f4f4;
 }
 
 
@@ -94,37 +94,8 @@ div {
   column-gap: 10px;
 }
 
-/* Contact Form from www3school*/
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 20px;
-  border: 1px solid #f9f7f8;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  resize: vertical;
-}
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 15px 25px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-.container {
-  border-radius: 5px;
-  background-color: #f4f6fa;
-  padding: 20px;
-}
 
-/* accordion */
+/* accordion  from https://www.w3schools.com/howto/howto_js_accordion.asp */
 .accordion {
  background-color: inherit; 
   color: black; 
@@ -135,7 +106,7 @@ input[type=submit]:hover {
   border: 5px solid black;
   transition: .4s;
  /* self added */
-  font-size: 25px; 
+  font-size: 30px; 
   height: 100px;
 }
 .accordion:hover{
@@ -143,16 +114,16 @@ input[type=submit]:hover {
 }
 .panel {
   padding: 0 18px;
-  background-color: #fffaee; 
+  background-color: transparent; 
   display: none;
   overflow: hidden;
 }
 
 
-/* accordion2 */
+/* accordion2 from https://www.w3schools.com/howto/howto_js_accordion.asp*/
 .accordion2 {
   background-color: #003366;
-  color: #ffc1b2;
+  color: transparent;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -178,7 +149,7 @@ input[type=submit]:hover {
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
-/* Slideshow container */
+/* Slideshow container from https://www.quanzhanketang.com/howto/howto_js_slideshow.html */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -271,6 +242,8 @@ user-select: none;
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
